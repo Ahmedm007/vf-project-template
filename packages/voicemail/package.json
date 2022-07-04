@@ -1,0 +1,13 @@
+{
+  "name": "vf-voicemail",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "synth": "ts-node ../../bin/synth",
+    "deploy": "ts-node ../../bin/deploy",
+    "destroy": "ts-node ../../bin/destroy"
+  },
+  "devDependencies": {
+    "@ttec-dig-vf/connect-voicemail": "^4.7.1"
+  }
+}

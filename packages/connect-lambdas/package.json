@@ -1,0 +1,12 @@
+{
+  "name": "@vf-project-template/vf-connect-resources",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "cross-env-shell \"../../node_modules/.bin/tsc --project tsconfig.build.json\"",
+    "sync-prod-deps": "ts-node bin/syncProdDeps",
+    "synth": "ts-node ../../bin/synth",
+    "deploy": "ts-node ../../bin/deploy",
+    "destroy": "ts-node ../../bin/destroy",
+    "test": "jest ./src/**/**/*.spec.ts --coverage"
+  }
+}
